@@ -1,0 +1,23 @@
+
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number ");
+        int n = sc.nextInt();
+        System.out.println("Table of "+n);
+       int sum = 2;
+
+        for (int i = 1; i <= 10; i++) {
+           n = n* i;
+            System.out.println(n*i);
+
+         System.out.println(sum);
+        }
+
+
+        }
+
+}
+
